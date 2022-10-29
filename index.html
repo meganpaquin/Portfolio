@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Megan Paquin</title>
+    <link rel="icon" href="img/Logo-Tab.png">
+
+    <!-- My Styles -->
+    <link rel="stylesheet" href="css/base.css">
+
+    <!-- Font Awesome Icons -->
+    <script src="https://kit.fontawesome.com/2b8896c554.js" crossorigin="anonymous"></script>
+
+</head>
+<body>
+    <div class="loading-logo"><img src="img/mylogo.gif" alt=""></div>
+
+    <nav class="topnav">
+        <img id="little-logo" src="img/Simple Logo.svg" alt="my personal logo" onclick="showLogo()">
+        <h2 id="nav-name">Megan Paquin</h2>
+        <a id="about-nav" href="#about-anchor">About</a>
+        <a id="exp-nav"href="#experience-anchor">Experience</a>
+        <a id="examples-nav"href="#examples-anchor">Examples</a>
+        <a id="contact-nav"href="#contact-anchor">Contact</a>
+        <a class="button" href="doc/MeganPaquin-Resume.pdf" target="_blank">Resume</a>
+    </nav>
+    
+    <nav class="contact">
+        <span class="line"></span>
+        <a href=""><i class="fa-brands fa-github fa-2xl"></i></a>
+        <a href=""><i class="fa-brands fa-linkedin-in fa-2xl"></i></a>
+        <a href=""><i class="fa-brands fa-twitter fa-2xl"></i></a>
+        <a href=""><i class="fa-brands fa-discord fa-2xl"></i></a>
+        <span class="line"></span>
+    </nav>
+
+    <header>
+        <h4>Hello, welcome to my portfolio.</h4>
+        <h1 id="myname">Megan Paquin</h1>
+        <h2>Web Developer</h2>
+        <p>I want to develop the future of medicine with comprehensive web applications. I have a passion for programming and a thorough understanding of the medical field.</p>
+        <div class="arrows"><a href="#about-anchor"><i class="fa-solid fa-angles-down"></i></a></div>
+    </header>
+
+    <main>
+
+        <span id="about-anchor"></span>
+        <section id="about">
+            <h2>About Me</h2>
+            <p>My name is Megan and I recently started my journey in Tech and am excited and enthusiastic to begin my career in Web Development.</p>
+            <p>I am a Mother and a Solider. I spent the majority of my career learning how to lead and develop teams. During a career gap during the 2019 Pandemic I decided to seize the opportunity to broaden my skills and explore my passion in technology.</p>
+            <p>I enjoy solving problems and understanding how things work. I have an engineering Bachelor's degree and love to test the boundaries of what we are capable of. My love of computers started with Dial Up Internet, an Apple iMac and a BlackBerry Bold in my pocket.</p>
+            <div class="arrows"><a href="#experience-anchor"><i class="fa-solid fa-angles-down"></i></a></div>
+        </section>
+
+        <span id="experience-anchor"></span>
+        <section id="experience">
+            <h2>Work Experience</h2>
+            <div class="tab-section">
+                <div class="tablist" role="tablist">
+                    <label class="button" for="tab-0" role="tab" aria-selected="true" aria-controls="panel-0" tabindex="0" onclick="showTab('#panel-0', '#button-0')" id="button-0">US Army</label> 
+                    <label class="button" for="tab-1" role="tab" aria-selected="false" aria-controls="panel-1" tabindex="0" onclick="showTab('#panel-1', '#button-1')" id="button-1">Letterkenny Army Depot</label> 
+                    <label class="button" for="tab-2" role="tab" aria-selected="false" aria-controls="panel-2" tabindex="0" onclick="showTab('#panel-2', '#button-2')" id="button-2">Amazon.com</label> 
+                    <label class="button" for="tab-3" role="tab" aria-selected="false" aria-controls="panel-3" tabindex="0" onclick="showTab('#panel-3', '#button-3')" id="button-3">Target.com</label> 
+                    <label class="button" for="tab-4" role="tab" aria-selected="false" aria-controls="panel-4" tabindex="0" onclick="showTab('#panel-4', '#button-4')" id="button-4">SUNY Medical University</label> 
+                </div>
+
+                <div class="tab-content">
+                    <div id="panel-0" role="tabpanel" tabindex="0" aria-labelledby="tab-0" aria-hidden="false">
+                        <h3>Engineer Officer <span>@ US Army</span></h3>
+                        <p>Dec 2013 - Present</p>
+                        <ul>
+                            <li>Utilized excellent written and verbal communication skills to create a yearly training calendar that was easy to interpret and understand and was clear and concise.</li>
+                            <li>Seamlessly interacted with cross-functional teams having highly diverse backgrounds and skills to ensure project deliverables were on-time, on-budget, high-quality, and met the desired outcomes.</li>
+                            <li>Developed new systems and enhanced old processes to reduce and refine maintenance systems leading to less vehicle downtime and greater vehicle roadway compliance.</li>
+                        </ul>
+                    </div>
+                    <div id="panel-1" role="tabpanel" tabindex="-1" aria-labelledby="tab-1" aria-hidden="true">
+                        <h3>Industrial Engineer <span>@ Letterkenny Army Depot</span></h3>
+                        <p>March 2020 - August 2021</p>
+                        <ul>
+                            <li>Created and monitored a project timeline utilizing Microsoft Project for a multi-billion-dollar construction project spanning 6 years and building 8 industrial facilities.</li>
+                            <li>Utilized CAMS and ECC, enterprise resource planning programs to develop industrialmanufacturing bills of material, routes, process procedures, assembly line process, and project lead times</li>
+                            <li>dentified all construction requirements for industrial facility construction and ensure alignment with facility specifications for equipment and planned usage</li>
+                        </ul>
+                    </div>
+                    <div id="panel-2" role="tabpanel" tabindex="-1" aria-labelledby="tab-2" aria-hidden="true">
+                        <h3>Operations Manager <span>@ US Amazon.com</span></h3>
+                        <p>Dec 2013 - Present</p>
+                        <ul>
+                            <li>Some stuff goes here</li>
+        
+                    </div>
+                    <div id="panel-3" role="tabpanel" tabindex="-1" aria-labelledby="tab-3" aria-hidden="true">
+                        <h3>Operations Manager <span>@ Target.com</span></h3>
+                        <p>Dec 2013 - Present</p>
+                        <ul>
+                            <li>Some good stuff does here</li>
+                            
+                        </ul>
+                    </div>
+                    <div id="panel-4" role="tabpanel" tabindex="-1" aria-labelledby="tab-4" aria-hidden="true">
+                        <h3>Project Engineer <span>@ SUNY Medical University</span></h3>
+                        <p>Sep 2015 - May 2016</p>
+                        <ul>
+                            <li>Utilized C++ with Arduino and micro controllers to process data, send results, display results and functions, and communicate medical information related to blood pressure.</li>
+                            <li>Mastered complex mathematical functions within C++ to calculate a time delay difference between the largest value of two arrays generated by axillary inputs that were constantly changing.</li>
+                            <li>Utilized LabVIEW to test inputs and outputs of an accelerometer, pulse oximeter, and pressure sensor to calibrate and test prototype devices for reading continuous blood pressure.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div> 
+
+            <div class="arrows"><a href="#examples-anchor"><i class="fa-solid fa-angles-down"></i></a></div>
+        </section>
+
+        <span id="examples-anchor"></span>
+        <section id="examples">
+            <h2>Project Examples</h2>
+            <div class="project column-container">
+                <div class="image-section row-container">
+                    <img class="projectimg fade" src="img/ecommerce-frontend-overview.png" alt="">
+
+                    <img class="projectimg fade" src="img/ecommerce-cart-overview.png" alt="">
+
+                    <img class="projectimg fade" src="img/ecommerce-admin-overview.png" alt="">
+
+                    <section class="description column-container">
+                        <h3>Ecommerce Store</h3>
+                        <caption>A comprehensive React frontend for buying and selling with a Python API backend driven by a SQL database.</caption>
+
+                        <section class="features column-container">
+                            <h4>Features:</h4>
+                                <li>Login authorizations and session management.</li>
+                                <li>Adaptive Cart with calculated totals and counter.</li>
+                                <li>Order status tracking with communication tracking back to user.</li>
+                        </section>
+                    </section>
+                </div>
+
+                
+
+                <div class="tags row-container">
+                    <li>#React</li>
+                    <li>#Python</li>
+                    <li>#API</li>
+                    <li>#MongoDB</li>
+                    <a href=""><i class="fa-solid fa-link"></i></a>
+                    <a href=""><i class="fa-brands fa-github"></i></a>
+                    
+                              
+                </div>
+                
+            </div>
+        </section>
+
+    </main>
+
+    <footer>
+       <a href=""><img src="img/icons8-html-5.svg" alt=""></a>
+       <a href=""><img src="img/icons8-css3.svg" alt=""></a>
+       <a href=""><img src="img/javascript-seeklogo.com.svg" alt=""></a>
+       <a href=""><img src="img/icons8-react.svg" alt=""></a>
+       <a href=""><img src="img/icons8-django.svg" alt=""></a>
+       <a href=""><img src="img/icons8-python.svg" alt=""></a>
+       <a href=""><img src="img/icons8-linux-48.png" alt=""></a>
+    </footer>
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="js/scripts.js"></script>
+
+</body>
+</html>
