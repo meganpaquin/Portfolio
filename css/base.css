@@ -384,6 +384,8 @@ main{
 
 .image-section{
     flex-wrap: nowrap;
+    width: 100%;
+    height: 500px;
 }
 
 .column-container{
